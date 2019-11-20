@@ -1,0 +1,1063 @@
+				*{
+					margin:0;
+					padding:0;
+				}
+				body{
+					background: #f7f8f8;
+				}
+				#header{
+					background: #000000;
+					height: 89px;
+				}
+				.head{
+					height: 89px;
+					width: 1240px;
+					margin: 0 auto;
+	
+				}
+				.logo{
+					width: 232px;
+					height: 89px;
+					float: left;
+					line-height: 89px;
+				}
+				.logo img{
+					display: block;
+					
+				}
+				.nav{
+					float:right;
+					height: 89px;
+					width: 1008px;
+				}
+				.nav ul{
+					width: 1008px;
+					height: 89px;
+					list-style: none;
+				}
+				.nav ul li{
+					float: left;
+					width: 144px;
+					height: 89px;	
+					line-height: 89px;	
+					text-align: center;	
+				}
+				.nav ul li a{
+					display: block;
+					width: 144px;
+					height: 89px;	
+					text-decoration:none;
+					color: white;
+					font-size:15px;
+					/*line-height: 90px;
+					text-align: center;	*/
+				}
+				.nav ul li a span{
+					color: rgba(255,255,255,0.5);
+					display: block;
+					
+					font-size: 9px;
+					line-height: 9px;
+					text-align: center;
+					margin-top: -30px;
+				}
+				#banner{
+					
+					clear: both;
+					position:relative;
+				}
+				#banner .banner_img{
+					display: block;
+					margin: 0 auto;
+					width: 100%;
+				}
+				.banner_nav{
+					width: 1240px;
+					height: 115px;
+					position:absolute;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+				}
+				.banner_nav_left{
+					width: 220px;
+					height: 115px;
+					float: left;
+					background: url(../img/英雄联盟官方网站-腾讯游戏2_03.png) no-repeat;
+				}
+				.banner_nav_left a{
+					display: block;
+					width: 220px;
+					height: 115px;
+					text-decoration:none;
+				}
+				.banner_nav_left h3{
+					font-size:24px;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					color: white;
+					margin-top: 39px;
+				}
+				.banner_nav_left p{
+					font-size: 12px;
+					height: 12px;
+					line-height: 12px;
+					text-align: center;
+					color: white;
+				}
+				.banner_nav_center{
+					width: 560px;
+					height: 115px;
+					float: left;
+				}
+				.banner_nav_center ul{
+					width: 560px;
+					height: 115px;
+					list-style: none;
+				}
+				.banner_nav_center ul li{
+					width: 112px;
+					height: 115px;
+					float: left;
+					background:url(../img/英雄联盟官方网站-腾讯游戏02_04.png) no-repeat;
+					position:relative;
+				}
+				.banner_nav_center ul li a{
+					display: block;
+					width: 112px;
+					height: 85px;
+					text-decoration:none;
+					color: white;
+					padding-top: 30px;
+				}
+				.banner_small{
+					width: 72px;
+					height: 72px;
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					top: 0;
+					margin:auto;
+					text-align: center;
+					line-height: 72px;
+					
+				}
+				.banner_nav_center img{
+					display: block;
+					margin: 0 auto;
+					height: 26px;
+					margin-top: 10px;
+				}
+				.banner_nav_center ul li a p{
+					margin-top: 5px;
+				}
+				.banner_nav_center_xin{
+					text-align: center;
+					font-size: 14px;
+					line-height: 14px;
+				}
+				.banner_nav_center_shou{
+					text-align: center;
+					color: rgba(255,255,255,0.5);
+					font-size:11px;
+					line-height: 11px;
+					margin-top: 8px;
+				}
+				.banner_nav_right{
+					width: 460px;
+					height: 115px;
+					background: #3d4d6d;
+					float: right;
+					position: relative;
+				}
+				.banner_nav_right dl{
+					width: 425px;
+					height: 80px;
+					position: absolute;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					top: 0;
+					margin: auto;
+				}
+				.banner_nav_right dl dt{
+					float: left;
+					margin-right: 24px;
+				}
+				.banner_nav_right dl dd{
+					
+				}
+				.banner_nav_right dl dd h4{
+					height: 27px;
+					line-height: 27px;
+					font-size:15px;
+					color: white;
+				}
+				.banner_nav_right dl dd h4 span{
+					color: #00ffcc;
+				}
+				.banner_nav_right dl dd p{
+					height: 19px;
+					line-height: 19px;
+					font-size:11px;
+					color: #c1cfe8;
+				}
+				.banner_nav_right_1{
+					margin-top: 6px;
+				}
+				.banner_nav_right dl dd .banner_nav_right_2 span{
+					color: white ;
+				}
+				#list{
+					height: 370px;
+					margin-top:28px ;
+				}
+				.lis{
+					width: 1240px;
+					height:370px;
+					margin: 0 auto;
+				}
+				.list_left{
+					height: 370px;
+					width:780px;
+					float: left;
+				}
+				
+				.list_left img{
+					display: block;
+				}
+				.lis .list_left ul{
+					width: 780px;
+					height: 40px;
+					list-style: none;	
+				}
+				.lis .list_left ul li{
+					width: 156px;
+					height: 40px;
+					float: left;
+					text-align: center;
+				}
+				.lis .list_left ul li a{
+					display: block;
+					width: 156px;
+					height:40px;
+					text-decoration:none;
+					color: black;
+					background: #efefef;
+					line-height: 40px;
+				}
+				.lis .list_left ul li:hover a{
+					color:white;
+					background:#36ab87;
+				}
+				.list_right{
+					float: right;
+					height: 370px;
+					width: 400px;
+				}
+				.list_right ul{
+					width: 400px;
+					height: 40px;
+					list-style: none;
+				}
+				.list_right ul li{
+					width: 80px;
+					height: 40px;
+					float: left;
+				}
+				.list_right ul li a{
+					line-height: 40px;
+					text-align: center;
+					display: block;
+					width: 80px;
+					height: 40px;
+					color: black;
+					text-decoration:none;
+					background: #f7f8f8;
+					border-bottom: 4px solid #ebecec;
+				} 
+				.list_right ul li:hover a{
+					border-bottom: 4px solid #00ab88;
+					color: #00ab88;
+				}
+				.list_right h3{
+					color: #00a684;
+					height: 66px;
+					width: 400px;
+					line-height: 66px;
+					text-align: center;
+					font-size: 20px;
+				}
+				
+				.list_right .list_right_footer{
+					height: 40px;
+					width: 400px;
+					line-height: 40px;
+					text-align: center;
+					background: #efefef;
+					color: #797979;
+					font-size:12px;
+				}
+				.list_right dl{
+					width: 400px;
+					height: 32px;
+				}
+				.list_right dl dt{
+					width: 50px;
+					height: 32px;
+					line-height: 32px;
+					float: left;
+				}
+				.list_right dl dt p{
+					width: 50px;
+					height: 26px;
+					border-radius: 40%;
+					background: #ebebeb;
+					font-size: 12px;
+					line-height: 26px;
+					text-align: center;
+					color: #a4a4a4;
+				}
+				.list_right dl dd{
+					float: right;
+					width: 346px;
+					height: 26px;
+				}
+				.list_right .list_right_p1{
+					float: left;
+					height: 26px;
+					line-height: 26px;
+					font-size:12px;
+				}
+				.list_right .list_right_p2{
+					float: right;
+					height: 26px;
+					line-height: 26px;
+					font-size:12px;
+					color: #a4a4a4;
+				}
+				#video{
+					height: 510px;
+					margin-top:53px;
+					margin-bottom:53px;
+				}
+				.vid{
+					height: 510px;
+					width: 1240px;
+					margin: 0 auto;
+				}
+				.video_left{
+					width:780px;
+					height: 510px;
+					float: left;
+				}
+				.video_left_title{
+					width: 780px;
+					height: 34px;
+				}
+				.video_left_title_left{
+					width: 137px;
+					height: 26px;
+					float: left;
+					padding: 4px  8px;
+				}
+				.video_left_title_left img{
+					display: block;
+					float: left;
+				}
+				.video_left_title_left h3{
+					float: right;
+					color: #555555;
+					font-size: 25px;
+					line-height: 26px;
+				}
+				.video_left_title_right{
+					width: 227px;
+					height: 34px;
+					float: right;
+				}
+				.video_left_title_right p{
+					width: 109px;
+					height: 34px;
+					border-radius:25%;
+					background: #efefef;
+					line-height: 34px;
+					text-align: center;
+					font-size: 12px;
+					color: #777777;
+				}
+				.video_left_title_right1{
+					float: left;
+				}
+				.video_left_title_right2{
+					float: right;
+				}
+				.video_left_content{
+					margin-top: 18px;
+				}
+				.video_left_content_nav{
+					width: 780px;
+					height: 40px;
+				}
+				.video_left_content_nav ul{
+					width: 780px;
+					height: 36px;
+					list-style: none;
+				}
+				.video_left_content_nav ul li{
+					width: 130px;
+					height: 36px;
+					float: left;
+				}
+				.video_left_content_nav ul li a{
+					display: block;
+					width: 130px;
+					height: 36px;
+					text-decoration:none;
+					line-height: 36px;
+					text-align:center;
+					font-size: 15px;
+					color: #666666;
+					border-bottom:4px solid #ebecec;
+				}
+				.video_left_content_nav ul li:hover a{
+					border-bottom: 4px solid #00ab88;
+					color: #00ab88;
+				}
+				.video_left_content_con{
+					height: 334px;
+					width: 780px;
+					
+					margin-top:30px ;
+				}
+				.video_left_content_con dl{
+					height: 167px;
+					width: 180px;
+					float: left;
+	
+					margin-right: 20px;
+				}
+				.video_left_content_con dl:nth-child(4){
+					margin-right: 0;
+				}
+				.video_left_content .video_left_content_con dl:last-child{
+					margin-right: 0;
+				}
+				.video_left_content_con dl img{
+					display: block;
+				}
+				.video_left_content_con dl dt{
+					width: 180px;
+					height: 100px;
+				}
+				.video_left_content_con dl dd{
+					margin-top: 9px;
+				}
+				.video_left_content_con dl dd p{
+					font-size:12px;
+					color: #333333;
+					line-height: 20px;
+				}
+				.video_left_content_footer{
+					height: 40px;
+					widows: 780px;
+					background: #eaeaea;
+					line-height: 40px;
+					text-align: center;
+					color: #666666;
+					margin-top: 14px;
+					font-size: 12px;
+				}
+				.video_left_content_footer span{
+					color: #00ab88;
+				}
+				.video_right{
+					width: 400px;
+					height: 510px;
+					float: right;
+				}
+.video_rightT{
+	width: 400px;
+	height: 34px;
+}
+.video_rightheader{
+	width: 137px;
+	height: 26px;
+	float: left;
+	padding: 4px  8px;
+}
+.video_rightheader img{
+	display: block;
+	float: left;
+}
+.video_rightheader h3{
+	float: right;
+	color: #555555;
+	font-size: 25px;
+	line-height: 26px;
+}
+.video_rights{
+	width: 212px;
+	height: 34px;
+	float: right;
+}
+.video_rights span:first-child{
+	display: block;
+	width: 80px;
+	height: 34px;
+	border-radius:13px;
+	background: #efefef;
+	line-height: 34px;
+	text-align: center;
+	font-size: 12px;
+	color: #777777;
+	float: left;
+}
+.video_rights span:last-child{
+	width: 122px;
+	height: 34px;
+	border-radius:13px;
+	background: #efefef;
+	line-height: 34px;
+	text-align: center;
+	font-size: 12px;
+	color: #777777;
+	float: right;
+}
+.video_rightNav{
+	margin-top: 18px;
+	width: 400px;
+	height: 36px;
+	margin-bottom: 15px;
+}
+.video_rightNav ul{
+	width: 400px;
+	height: 36px;
+	list-style: none;
+}
+.video_rightNav li{
+	float: left;
+}
+.video_rightNav a{
+	display: block;
+	width: 133px;
+	height: 36px;
+	text-decoration:none;
+	line-height: 36px;
+	text-align:center;
+	font-size: 15px;
+	color: #666666;
+	border-bottom:4px solid #ebecec;
+}
+.video_rightNav ul li:hover a{
+	border-bottom: 4px solid #00ab88;
+	color: #00ab88;
+}
+.video_rightCon ul{
+	list-style: none;
+	height: 157px;
+}
+.video_rightCon li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.video_rightCon li a{
+	display: block;
+	height: 76px;
+	width: 76px;
+}
+.video_rightCon li img{
+	display: block;
+	border: 0;
+}
+.video_rightCon .cony{
+	margin-right: 0px;
+}
+.video_rightCon .conx{
+	margin-bottom: 0px;
+}
+.video_rightCon p{
+	margin-top: 9px;
+	height: 11px;
+	font-size: 11px;
+	line-height: 11px;
+	text-align: right;
+	color: #9f9f9f;
+}
+.video_rightT2{
+	height: 27px;
+	margin-top: 40px;
+}
+.video_rightT2 img{
+	display: block;
+	margin-left: 5px;
+	float: left;
+	margin-right: 13px;
+}
+.video_rightT2 h3{
+	float: left;
+	color: #555555;
+	font-size: 25px;
+	line-height: 27px;
+}
+.video_rightCon2{
+	height: 138px;
+	margin-top: 21px;
+}
+.video_rightCon2 dl{
+	height: 65px;
+	width: 94px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	background: white;
+	float: left;
+}
+.video_rightCon2 .right1{
+	margin-right: 0;
+}
+.video_rightCon2 .right2{
+	margin-bottom: 0;
+}
+.video_rightCon2 dt{
+	height: 43px;
+	text-align: center;
+}
+.video_rightCon2 dt img{
+	vertical-align: middle;
+}
+.video_rightCon2 dt span{
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.video_rightCon2 dd{
+	font-size: 12px;
+	line-height: 12px;
+	color: #555555;
+	text-align: center;
+}
+#game{
+	height: 397px;
+	width: 1240px;
+	margin: 0 auto;
+	margin-bottom: 69px;
+}
+.gameLeft{
+	height: 397px;
+	width: 780px;
+	float: left;
+}
+.gameheader{
+	height: 34px;
+	margin-bottom: 18px;
+}
+.gameheader h3{
+	width: 104px;
+	float: left;
+	background: url(../img/英雄联盟官方网站-腾讯游戏40_06.png) no-repeat 4px 5px;
+	font-size: 25px;
+	line-height: 34px;
+	padding-left: 46px;
+	color: #555555;
+}
+.gameheader span{
+	height: 34px;
+	width: 108px;
+	display: block;
+	background: #efefef;
+	color: #777777;
+	font-size: 12px;
+	line-height: 34px;
+	text-align: center;
+	float: right;
+	border-radius: 13px;
+}
+.gamenav{
+	height: 36px;
+	margin-bottom: 20px;
+}
+.gamenav ul{
+	list-style: none;
+}
+.gamenav li{
+	float: left;
+}
+.gamenav a{
+	display: block;
+	width: 130px;
+	height: 36px;
+	text-decoration: none;
+	line-height: 36px;
+	text-align:center;
+	font-size: 14px;
+	color: #666666;
+	border-bottom:4px solid #ebecec;
+}
+.gamenav li:hover a{
+	border-bottom: 4px solid #00ab88;
+	color: #00ab88;
+}
+.gamecon{
+	height: 285px;
+}
+.gameconL{
+	width: 180px;
+	float: left;
+	margin-right: 20px;
+}
+.gameconL img{
+	display: block;
+}
+.gameconL img:first-child{
+	margin-bottom: 10px;
+}
+.gameconR{
+	float: left;
+	width: 580px;
+}
+.gameconRtop{
+	height: 97px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 16px;
+}
+.gameconRtop h4{
+	font-size: 25px;
+	line-height:32px ;
+	color: #00a686;
+	height: 32px;
+	margin-bottom: 9px;
+}
+.gameconRtop h4 span{
+	display: block;
+	float: right;
+	margin-right: 11px;
+}
+.gameconRtop .gameconR1 span{
+	display: block;
+	float: right;
+	margin-right: 16px;	
+}
+.gameconRtop p{
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+}
+.gameconR ul{
+	list-style: none;
+}
+.gameconR a{
+	display: block;
+	height: 28px;
+	width:580px ;
+	font-size: 12px;
+	color: #333333;
+	line-height: 28px;
+	text-decoration: none;
+}
+.gameconR a span{
+	display: block;
+	float: right;
+	color: #9ba0bd;
+}
+.gameRight{
+	height: 397px;
+	width: 400px;
+	float: right;
+}
+.gameheader2{
+	height: 34px;
+	margin-bottom: 16px;
+}
+.gameheader2 h3{
+	width: 104px;
+	float: left;
+	background: url(../img/英雄联盟官方网站-腾讯游戏40_03.png) no-repeat 4px 5px;
+	font-size: 25px;
+	line-height: 34px;
+	padding-left: 46px;
+	color: #555555;
+}
+.gameheader2 span{
+	height: 34px;
+	width: 108px;
+	display: block;
+	background: #efefef;
+	color: #777777;
+	font-size: 12px;
+	line-height: 34px;
+	text-align: center;
+	float: right;
+	border-radius: 13px;
+}
+.gamecon2{
+	height: 172px;
+}
+.gamecon2L{
+	width: 145px;
+	float: left;
+	margin-right: 25px;
+}
+.gamecon2L img{
+	display: block;
+}
+.gamecon2C{
+	width: 154px;
+	overflow: hidden;
+	float: left;
+}
+.gamecon2C ul{
+	list-style: none;
+}
+.gamecon2C a{
+	display: block;
+	width: 154px;
+	height: 21px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #333333;
+	margin-bottom: 4px;
+}
+.gamecon2C .gamecon2Ca{
+	margin-bottom: 0;
+}
+.gamecon2R{
+	float: right;
+	width: 57px;
+	height: 172px;
+}
+.gamecon2R span{
+	display: block;
+	height: 21px;
+	width: 57px;
+	background: #00a887;
+	color: white;
+	font-size: 11px;
+	line-height: 21px;
+	text-align: center;
+	margin-bottom: 4px;
+	border-radius: 10px;
+}
+.timo{
+	display: block;
+	margin-top: 85px;
+}
+#serviceWrap{
+	height: 338px;
+	width: 1240px;
+	margin: 0 auto;
+}
+.service{
+	height: 338px;
+	width: 780px;
+}
+.serviceheader{
+	height: 34px;
+	margin-bottom: 18px;
+}
+.serviceheader h3{
+	width: 104px;
+	float: left;
+	background: url(../img/英雄联盟官方网站-腾讯游戏40_24.png) no-repeat 6px 4px;
+	font-size: 25px;
+	line-height: 34px;
+	padding-left: 46px;
+	color: #555555;
+}
+.serviceheader span{
+	height: 34px;
+	width: 102px;
+	display: block;
+	background: #efefef;
+	color: #777777;
+	font-size: 12px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+	border-radius: 13px;
+	margin-left: 492px;
+}
+.serviceheaderI{
+	width: 13px;
+	height: 34px;
+	float: right;
+	margin-right: 11px;
+}
+.serviceheaderI img{
+	display: block;
+	float: left;
+	margin-right: 2px;
+	margin-top: 13px;
+}
+.serviceheaderI img:last-child{
+	margin-right: 0;
+}
+.servicenav{
+	height: 36px;
+	margin-bottom: 20px;
+	border-bottom:4px solid #ebecec;
+}
+.servicenavL{
+	width: 260px;
+	height: 36px;
+	float: left;
+}
+.servicenavR{
+	width: 390px;
+	height: 36px;
+	float: right;
+}
+.servicenav ul{
+	list-style: none;
+}
+.servicenav li{
+	float: left;
+}
+.servicenav a{
+	display: block;
+	width: 130px;
+	height: 36px;
+	text-decoration: none;
+	line-height: 36px;
+	text-align:center;
+	font-size: 14px;
+	color: #666666;
+	border-bottom:4px solid #ebecec;
+}
+.servicenav li:hover a{
+	border-bottom: 4px solid #00ab88;
+	color: #00ab88;
+}
+.serviceCon{
+	height: 212px;
+}
+.serviceConL{
+	width: 294px;
+	float: left;
+	margin-right: 60px;
+	overflow-x: hidden;
+}
+.serviceConR{
+	width: 294px;
+	float: left;
+	overflow-x: hidden;
+}
+.serviceCon p{
+	width: 294px;
+	font-size: 12px;
+	line-height: 26px;
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+#footerWrap{
+	height: 238px;
+	background: #f3f3f3;
+	
+}
+.footer{
+	height: 238px;
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+.footerHeader{
+	height: 77px;
+	border-bottom:3px solid #d0d0d0 ;
+	padding-top: 30px;
+}
+.footerHeaderL{
+	float: left;
+	width: 423px;
+	height: 77px;
+}
+.footerHeaderL dt{
+	float: left;
+}
+.footerHeaderL dt img{
+	display: block;
+}
+.footerHeaderL dd{
+	width: 173px;
+	float: left;
+	margin-left: 21px;
+	margin-top: 7px;
+}
+.footerHeaderL dd h4{
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 6px;
+	color: #404040;
+}
+.footerHeaderL dd p{
+	font-size: 11px;
+	line-height: 19px;
+	color: #a5a5a5;
+}
+.footerHeaderC
+{
+	width: 400px;
+	float: left;
+}
+.footerHeaderC h4{
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 6px;
+	color: #404040;
+}
+.footerHeaderC ul{
+	list-style: none;
+}
+.footerHeaderC li{
+	margin-right: 10px;
+	font-size: 11px;
+	line-height: 19px;
+	color: #a5a5a5;
+	float: left;
+}
+.footerHeader form{
+	width: 278px;
+	height: 36px;
+	padding: 3px;
+	background: #e2e2e2;
+	float: right;
+	margin-top: 6px;
+}
+.footerHeader input[type="text"]{
+	width: 238px;
+	height: 34px;
+	display: block;
+	float: left;
+	padding-left: 14px;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid #cbcbcb;
+	border-right: 0;
+	background: white url(../img/footerx_03.png) no-repeat right center;
+}
+.footerHeader input[type="submit"]{
+	width: 25px;
+	height: 36px;
+	display: block;
+	float: left;
+	border: 1px solid #cbcbcb;
+	border-left: 0;
+	background:  white url(../img/footer_03.png) no-repeat center;
+}
+.footerF{
+	height: 128px;
+}
+.footerF img{
+	display: block;
+}
+.cha{
+	display: block;
+	position: absolute;
+	top: 86px;
+	right: -60px;
+}
